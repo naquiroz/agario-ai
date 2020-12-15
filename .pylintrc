@@ -1,0 +1,20 @@
+[MASTER]
+
+[DESIGN]
+
+# Too many instance attributes (default: 7)
+max-attributes = 10
+
+# Too many local variables (default: 15)
+max-locals = 20
+
+# Too many ancestors (default: 7)
+max-parents = 15
+
+# Too many public methods (default: 20)
+max-public-methods = 25
+
+[SIMILARITIES]
+
+# Ignore imports when computing similarities.
+ignore-imports = yes
